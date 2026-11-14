@@ -4,7 +4,12 @@
 
 ## Скачать приложение
 
-Готовый **Fitness67 0.6 APK**, исходный архив, скриншоты и инструкция находятся в [Releases](https://github.com/Ilatrion/Fitness67/releases/latest).
+- [Скачать APK для Android](https://github.com/Ilatrion/Fitness67/raw/refs/heads/main/downloads/Fitness67-v0.6.apk)
+- [Скачать проект Android Studio](https://github.com/Ilatrion/Fitness67/raw/refs/heads/main/downloads/Fitness67-v0.6-AndroidStudio.zip)
+- [Инструкция PDF](downloads/Fitness67-v0.6-guide.pdf)
+- [Скриншоты PDF](downloads/Fitness67-v0.6-screenshots.pdf)
+
+Готовые файлы находятся в папке `downloads`. Описание версии — в [Releases](https://github.com/Ilatrion/Fitness67/releases/latest).
 
 APK устанавливается на Android 7.0 и новее. Для обновления ставьте поверх предыдущей версии, не удаляя приложение. Это учебная сборка со стандартным debug-ключом подписи; для публикации в Google Play нужен собственный release-ключ.
 
@@ -21,7 +26,7 @@ APK устанавливается на Android 7.0 и новее. Для обн
 
 ## Как пользоваться
 
-1. Установите APK из Releases и откройте Fitness67.
+1. Установите APK по ссылке выше и откройте Fitness67.
 2. Разрешите камеру, физическую активность и уведомления для соответствующих функций. Дневник доступен и без этих разрешений.
 3. Для perek.us сохраните свой ключ в настройках. OpenAI не используется. Без ключа доступны история, встроенные карточки и Open Food Facts.
 4. Сканируйте товар, проверьте порцию, выберите приём пищи и нажмите «Добавить в дневник».
