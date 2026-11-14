@@ -1,0 +1,39 @@
+{
+  "expo": {
+    "name": "Fitness67",
+    "slug": "fitness67",
+    "version": "0.6.0",
+    "orientation": "portrait",
+    "userInterfaceStyle": "automatic",
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "app.fitness67.mobile"
+    },
+    "web": {
+      "bundler": "metro"
+    },
+    "scheme": "fitness67",
+    "android": {
+      "package": "app.fitness67.mobile"
+    },
+    "plugins": [
+      [
+        "expo-camera",
+        {
+          "cameraPermission": "Fitness67 использует камеру для сканирования штрихкода продукта.",
+          "recordAudioAndroid": false
+        }
+      ],
+      "expo-notifications",
+      [
+        "expo-image-picker",
+        {
+          "photosPermission": "Fitness67 использует выбранное фото для оценки еды.",
+          "cameraPermission": "Fitness67 использует камеру для фотографии блюда.",
+          "microphonePermission": false
+        }
+      ]
+    ],
+    "icon": "./public/icon-512.png"
+  }
+}

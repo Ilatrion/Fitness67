@@ -1,0 +1,31 @@
+node_modules/
+.expo/
+dist/
+playwright-report/
+test-results/
+*.log
+
+.env
+.env.*
+!.env.example
+server/.env
+preview*.png
+*.zip
+*.tar.gz
+
+.env
+src/catalogBuild.ts
+
+# Native build output and machine settings
+**/build/
+**/.gradle/
+**/.cxx/
+android/local.properties
+.xcode.env.local
+ios/Pods/
+*.apk
+*.aab
+.DS_Store
+
+# Also ignore linked dependency directories
+node_modules
